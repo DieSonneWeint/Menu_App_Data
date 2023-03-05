@@ -1,0 +1,19 @@
+﻿<Window x:Class="Meta_Data_App.SignIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Meta_Data_App"
+        mc:Ignorable="d"
+        Title="Sign In" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,4">
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="237,142,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="237,0,0,0" VerticalAlignment="Center"/>
+        <TextBox Name="TextBox_Password"  HorizontalAlignment="Left" Margin="311,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="141"/>
+        <TextBox Name="TextBox_Login" HorizontalAlignment="Left" Margin="311,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Height="23" Margin="229,262,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click_1"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Height="23" Margin="449,262,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click"/>
+        <Label  Name ="Label_Info" Content="" HorizontalAlignment="Left" Margin="204,316,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.411,3.076" Height="25" Width="328"/>
+
+    </Grid>
+</Window>
