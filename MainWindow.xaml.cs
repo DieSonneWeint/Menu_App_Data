@@ -45,7 +45,7 @@ namespace Meta_Data_App
                     MenuItem newMenuItem1 = new MenuItem();
                     newMenuItem1.Header = item.Header;
                     if (item.Number == "1") newMenuItem1.IsEnabled = false;
-                    menu.Items.Add(newMenuItem1);
+                    menu.Items.Add(newMenuItem1);                   
                 }
             }
         }
