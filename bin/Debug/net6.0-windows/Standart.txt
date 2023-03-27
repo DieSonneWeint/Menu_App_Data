@@ -6,7 +6,7 @@
 1 Departs
 1 Towns
 1 Posts
-0 Window
-0 Help
+1 Window
+1 Help
 1 Content
 1 About

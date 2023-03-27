@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Meta_Data_App/1.0.0": {
+        "dependencies": {
+          "Menu_App_Lib": "1.0.0"
+        },
         "runtime": {
           "Meta_Data_App.dll": {}
+        }
+      },
+      "Menu_App_Lib/1.0.0": {
+        "runtime": {
+          "Menu_App_Lib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Meta_Data_App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Menu_App_Lib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

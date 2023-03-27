@@ -21,3 +21,6 @@ C:\Users\drago\source\repos\Meta_Data_App\obj\Debug\net6.0-windows\refint\Meta_D
 C:\Users\drago\source\repos\Meta_Data_App\obj\Debug\net6.0-windows\Meta_Data_App.pdb
 C:\Users\drago\source\repos\Meta_Data_App\obj\Debug\net6.0-windows\Meta_Data_App.genruntimeconfig.cache
 C:\Users\drago\source\repos\Meta_Data_App\obj\Debug\net6.0-windows\ref\Meta_Data_App.dll
+C:\Users\drago\source\repos\Meta_Data_App\bin\Debug\net6.0-windows\Menu_App_Lib.dll
+C:\Users\drago\source\repos\Meta_Data_App\bin\Debug\net6.0-windows\Menu_App_Lib.pdb
+C:\Users\drago\source\repos\Meta_Data_App\obj\Debug\net6.0-windows\Meta_Data_App.csproj.CopyComplete

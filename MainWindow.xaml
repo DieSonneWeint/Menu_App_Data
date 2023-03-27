@@ -7,9 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Menu Name="menu">
+        <Menu Name="menu" Margin="0,0,0,366">
 
         </Menu>
-        <Button Name="But_aut" Content="Войти" Click="Button_Click" Margin="320,195,360,172"/>
+        <TextBox Name="TextBox" HorizontalAlignment="Left" Margin="0,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="485" Height="366"/>
+        <Button Name="But_aut" Content="Войти" Click="Button_Click" Margin="340,183,340,183"/>
+        
     </Grid>
 </Window>

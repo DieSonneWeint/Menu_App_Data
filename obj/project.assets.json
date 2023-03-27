@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Menu_App_Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Menu_App_Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Menu_App_Lib.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Menu_App_Lib/1.0.0": {
+      "type": "project",
+      "path": "../Menu_App_Lib/Menu_App_Lib.csproj",
+      "msbuildProject": "../Menu_App_Lib/Menu_App_Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Menu_App_Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\drago\\.nuget\\packages\\": {},
@@ -38,7 +60,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -69,7 +95,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

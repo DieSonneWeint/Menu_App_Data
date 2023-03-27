@@ -1,23 +1,47 @@
-﻿using System;
+﻿using Menu_App_Lib;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Shapes;
 
 namespace Meta_Data_App
 {  
-   public class VM
+   public class VM 
     {
+        MenuItemClick itemClick;
         public Model model = new Model();
+        Menu_DLL dLL = new Menu_DLL();
         public int flag { get; set; }// flag_s = 0 не авторизован
                                      // flag_s = 1 авторизован
         public VM(string path_users) 
         {
             ReadUserInfo(path_users);
         }
+        //ICommand _menu_item_click;
+        //public ICommand Menu_Item_Click
+        //{
+        //    get 
+        //    { 
+        //        if (_menu_item_click == null)
+        //        {
+        //            _menu_item_click =  
+        //        } 
+        //    }
+        //}
+
+        //public MethodInfo Menu_Item_Click(MenuItem menu, TextBox textBox, MenuItemClick? del)
+        //{
+           
+        //    return dLL.Menu_Item_Click(menu, textBox , del);
+        //}
         public int Check (string user_name , string user_password) // проверка логина и пароля 
         {
              foreach( var user in model.users) 
