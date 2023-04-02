@@ -10,6 +10,6 @@ namespace Meta_Data_App
     public class Model
     {
         public List<User> users = new List<User>();
-        public List<Menu> menu = new List<Menu>();
+        public List<MenuHeader> menuHeaders = new List<MenuHeader>();
     }
 }

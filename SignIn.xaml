@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Meta_Data_App"
         mc:Ignorable="d"
-        Title="Sign In" Height="450" Width="800" ResizeMode="NoResize">
+        Title="Sign In" Height="350" Width="400" ResizeMode="NoResize">
     <Grid Margin="0,0,0,4">
-        <Label Content="Логин" HorizontalAlignment="Left" Margin="237,142,0,0" VerticalAlignment="Top"/>
-        <Label Content="Пароль" HorizontalAlignment="Left" Margin="237,0,0,0" VerticalAlignment="Center"/>
-        <TextBox Name="TextBox_Password"  HorizontalAlignment="Left" Margin="311,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="141"/>
-        <TextBox Name="TextBox_Login" HorizontalAlignment="Left" Margin="311,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
-        <Button Content="Вход" HorizontalAlignment="Left" Height="23" Margin="229,262,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click_1"/>
-        <Button Content="Отмена" HorizontalAlignment="Left" Height="23" Margin="449,262,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click"/>
-        <Label  Name ="Label_Info" Content="" HorizontalAlignment="Left" Margin="204,316,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.411,3.076" Height="25" Width="328"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="69,66,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="65,0,0,0" VerticalAlignment="Center" Height="24"/>
+        <TextBox Name="TextBox_Password"  HorizontalAlignment="Left" Margin="147,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="141" Height="24" KeyDown="TextBox_Password_KeyDown"/>
+        <TextBox Name="TextBox_Login" HorizontalAlignment="Left" Margin="147,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" Height="24"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Height="31" Margin="69,214,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click_1"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Height="31" Margin="307,214,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click"/>
+        <Label  Name ="Label_Info" Content="" HorizontalAlignment="Left" Margin="62,286,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.031,-4.669" Height="34" Width="304"/>
 
     </Grid>
 </Window>

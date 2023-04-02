@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Meta_Data_App
 {
-    public class Menu
+    public class MenuHeader
     {
         public string Header { get; set; }
         public string Number { get; set; }

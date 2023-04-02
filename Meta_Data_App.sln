@@ -5,9 +5,7 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meta_Data_App", "Meta_Data_App.csproj", "{5E2A5CB6-6C21-4140-A10A-EFCE57C7AF0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu_App_Lib", "..\Menu_App_Lib\Menu_App_Lib.csproj", "{CAC365CE-C3F9-45F0-ACB2-E468D01CA3DE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Menu", "..\Lib_Menu\Lib_Menu.csproj", "{886860CB-1C92-48BA-B539-DD695AE695E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Menu_App_Lib", "..\Menu_App_Lib\Menu_App_Lib.csproj", "{CAC365CE-C3F9-45F0-ACB2-E468D01CA3DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{CAC365CE-C3F9-45F0-ACB2-E468D01CA3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAC365CE-C3F9-45F0-ACB2-E468D01CA3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAC365CE-C3F9-45F0-ACB2-E468D01CA3DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{886860CB-1C92-48BA-B539-DD695AE695E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{886860CB-1C92-48BA-B539-DD695AE695E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{886860CB-1C92-48BA-B539-DD695AE695E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{886860CB-1C92-48BA-B539-DD695AE695E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

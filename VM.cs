@@ -5,6 +5,7 @@ using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -19,29 +20,15 @@ namespace Meta_Data_App
         MenuItemClick itemClick;
         public Model model = new Model();
         Menu_DLL dLL = new Menu_DLL();
-        public int flag { get; set; }// flag_s = 0 не авторизован
-                                     // flag_s = 1 авторизован
+        private int flag = 0; 
+        public int Flag { get { return flag; } set { flag = value; } }
+        // flag = 0 не авторизован
+        // flag = 1 авторизован
         public VM(string path_users) 
         {
             ReadUserInfo(path_users);
         }
-        //ICommand _menu_item_click;
-        //public ICommand Menu_Item_Click
-        //{
-        //    get 
-        //    { 
-        //        if (_menu_item_click == null)
-        //        {
-        //            _menu_item_click =  
-        //        } 
-        //    }
-        //}
-
-        //public MethodInfo Menu_Item_Click(MenuItem menu, TextBox textBox, MenuItemClick? del)
-        //{
-           
-        //    return dLL.Menu_Item_Click(menu, textBox , del);
-        //}
+        
         public int Check (string user_name , string user_password) // проверка логина и пароля 
         {
              foreach( var user in model.users) 
@@ -60,12 +47,12 @@ namespace Meta_Data_App
             StreamReader streamReader= new StreamReader(path_menu);
             while (!streamReader.EndOfStream) 
             {
-                Menu menu = new Menu();
+                MenuHeader menu = new MenuHeader();
                 line = streamReader.ReadLine();
                 string[] splitline = line.Split(' ');
                 menu.Number = splitline[0];
                 menu.Header = splitline[1];
-                model.menu.Add(menu);
+                model.menuHeaders.Add(menu);
             }
         }
         private void  ReadUserInfo( string path_users) // считывается с файла вся информация о пользователях
