@@ -10,5 +10,7 @@ namespace Meta_Data_App
     {
         public string Header { get; set; }
         public string Number { get; set; }
+
+        public string TreeStruct { get; set; }
     }
 }

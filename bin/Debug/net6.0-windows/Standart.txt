@@ -1,12 +1,12 @@
-0 Others
-0 Stuff
-0 Orders
-0 Docs
-0 Tips
-1 Departs
-1 Towns
-1 Posts
-1 Window
-1 Help
-1 Content
-1 About
+0 Others 0
+0 Stuff 1 
+0 Orders 1
+0 Docs 0
+0 Tips 1 
+1 Departs 2
+0 Towns 0
+0 Posts 0
+0 Window 0
+1 Help 1
+1 Content 2
+1 About 0

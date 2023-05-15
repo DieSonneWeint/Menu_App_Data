@@ -50,17 +50,42 @@ namespace Meta_Data_App
             else if (ViewModel.Flag == 1) // если авторизован
             {
                 But_aut.Visibility = Visibility.Collapsed;
-                int count = 0;
+                int count = -1;
+                int countprom = -1;
                 foreach (var item in ViewModel.model.menuHeaders) // отображение конструкции меню 
-                {
+                {   
                     MenuItem newMenuItem1 = new MenuItem();
-                    newMenuItem1.Header = item.Header;
                     if (item.Number == "1") newMenuItem1.IsEnabled = false;
                     else
                     {
                         newMenuItem1.Click += NewMenuItem1_Click;
                     }
-                    menu.Items.Add(newMenuItem1);
+
+                    if (item.TreeStruct == "0")
+                        {
+                        count++;
+                        countprom = -1;
+                        newMenuItem1.Header = item.Header;
+                        menu.Items.Add(newMenuItem1);
+                        }
+
+                    if (item.TreeStruct == "1")
+                    { 
+                        countprom++;
+                        MenuItem newExistMenuItem = (MenuItem)this.menu.Items[count];
+                        newMenuItem1.Header = item.Header;
+                        newExistMenuItem.Items.Add(newMenuItem1);
+                    }
+                    if (item.TreeStruct == "2")
+                    {                      
+                        MenuItem newExistMenuItem = (MenuItem)this.menu.Items[count];
+                        var newExistMenuItem2 = (MenuItem)newExistMenuItem.Items[countprom];
+                        newMenuItem1.Header = item.Header;
+                        newExistMenuItem2.Items.Add(newMenuItem1);
+
+                    }
+
+
                 }
             }
         }

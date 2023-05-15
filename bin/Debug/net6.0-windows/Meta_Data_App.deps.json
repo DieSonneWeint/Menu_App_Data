@@ -8,15 +8,73 @@
     ".NETCoreApp,Version=v6.0": {
       "Meta_Data_App/1.0.0": {
         "dependencies": {
-          "Menu_App_Lib": "1.0.0"
+          "Departs_dll": "1.0.0",
+          "Docs_dll": "1.0.0",
+          "Menu_App_Lib": "1.0.0",
+          "Orders_dll": "1.0.0",
+          "Others_dll": "1.0.0",
+          "Posts_dll": "1.0.0",
+          "Stuff_dll": "1.0.0",
+          "Tips_dll": "1.0.0",
+          "Towns_dll": "1.0.0"
         },
         "runtime": {
           "Meta_Data_App.dll": {}
         }
       },
+      "Departs_dll/1.0.0": {
+        "runtime": {
+          "Departs_dll.dll": {}
+        }
+      },
+      "Docs_dll/1.0.0": {
+        "runtime": {
+          "Docs_dll.dll": {}
+        }
+      },
       "Menu_App_Lib/1.0.0": {
+        "dependencies": {
+          "Departs_dll": "1.0.0",
+          "Docs_dll": "1.0.0",
+          "Orders_dll": "1.0.0",
+          "Others_dll": "1.0.0",
+          "Posts_dll": "1.0.0",
+          "Stuff_dll": "1.0.0",
+          "Tips_dll": "1.0.0",
+          "Towns_dll": "1.0.0"
+        },
         "runtime": {
           "Menu_App_Lib.dll": {}
+        }
+      },
+      "Orders_dll/1.0.0": {
+        "runtime": {
+          "Orders_dll.dll": {}
+        }
+      },
+      "Others_dll/1.0.0": {
+        "runtime": {
+          "Others_dll.dll": {}
+        }
+      },
+      "Posts_dll/1.0.0": {
+        "runtime": {
+          "Posts_dll.dll": {}
+        }
+      },
+      "Stuff_dll/1.0.0": {
+        "runtime": {
+          "Stuff_dll.dll": {}
+        }
+      },
+      "Tips_dll/1.0.0": {
+        "runtime": {
+          "Tips_dll.dll": {}
+        }
+      },
+      "Towns_dll/1.0.0": {
+        "runtime": {
+          "Towns_dll.dll": {}
         }
       }
     }
@@ -27,7 +85,47 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Departs_dll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Docs_dll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Menu_App_Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Orders_dll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Others_dll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Posts_dll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stuff_dll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tips_dll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Towns_dll/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -35,7 +35,7 @@ namespace Meta_Data_App
                 if (TextBox_Password.ToolTip == null)
                 {
                     ToolTip tt = new ToolTip();
-                    tt.Content = "Warning: CapsLock is on";
+                    tt.Content = "Внимание: CapsLock включен";
                     tt.PlacementTarget = sender as UIElement;
                     tt.Placement = PlacementMode.Bottom;
                     TextBox_Password.ToolTip = tt;

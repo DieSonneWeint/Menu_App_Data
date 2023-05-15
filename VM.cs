@@ -52,6 +52,7 @@ namespace Meta_Data_App
                 string[] splitline = line.Split(' ');
                 menu.Number = splitline[0];
                 menu.Header = splitline[1];
+                menu.TreeStruct = splitline[2];
                 model.menuHeaders.Add(menu);
             }
         }
@@ -70,5 +71,6 @@ namespace Meta_Data_App
                 model.users.Add(user);
             }
         }
+      
     }
 }

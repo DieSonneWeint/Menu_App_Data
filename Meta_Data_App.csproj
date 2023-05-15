@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Departs_dll\Departs_dll.csproj" />
+    <ProjectReference Include="..\Docs_dll\Docs_dll.csproj" />
     <ProjectReference Include="..\Menu_App_Lib\Menu_App_Lib.csproj" />
+    <ProjectReference Include="..\Orders_dll\Orders_dll.csproj" />
+    <ProjectReference Include="..\Others_dll\Others_dll.csproj" />
+    <ProjectReference Include="..\Posts_dll\Posts_dll.csproj" />
+    <ProjectReference Include="..\Stuff_dll\Stuff_dll.csproj" />
+    <ProjectReference Include="..\Tips_dll\Tips_dll.csproj" />
+    <ProjectReference Include="..\Towns_dll\Towns_dll.csproj" />
   </ItemGroup>
 
 </Project>

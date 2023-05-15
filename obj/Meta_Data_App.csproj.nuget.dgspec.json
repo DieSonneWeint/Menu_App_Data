@@ -4,14 +4,14 @@
     "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\Meta_Data_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj": {
+    "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj",
-        "projectName": "Menu_App_Lib",
-        "projectPath": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj",
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj",
+        "projectName": "Departs_dll",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj",
         "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\obj\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Departs_dll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,18 +62,80 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\Meta_Data_App.csproj": {
+    "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\Meta_Data_App.csproj",
-        "projectName": "Meta_Data_App",
-        "projectPath": "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\Meta_Data_App.csproj",
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj",
+        "projectName": "Docs_dll",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj",
         "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\obj\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Docs_dll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj",
+        "projectName": "Menu_App_Lib",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,8 +156,29 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj": {
-                "projectPath": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj"
+              "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj"
               }
             }
           }
@@ -128,7 +211,469 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\Meta_Data_App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\Meta_Data_App.csproj",
+        "projectName": "Meta_Data_App",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\Meta_Data_App.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Meta_Data_App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj"
+              },
+              "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj": {
+                "projectPath": "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj",
+        "projectName": "Orders_dll",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Orders_dll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj",
+        "projectName": "Others_dll",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Others_dll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj",
+        "projectName": "Posts_dll",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Posts_dll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj",
+        "projectName": "Stuff_dll",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Stuff_dll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj",
+        "projectName": "Tips_dll",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Tips_dll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj",
+        "projectName": "Towns_dll",
+        "projectPath": "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\source\\repos\\Towns_dll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

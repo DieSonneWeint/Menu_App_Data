@@ -2,9 +2,45 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "Departs_dll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Departs_dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Departs_dll.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Docs_dll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Docs_dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Docs_dll.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Menu_App_Lib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Departs_dll": "1.0.0",
+          "Docs_dll": "1.0.0",
+          "Orders_dll": "1.0.0",
+          "Others_dll": "1.0.0",
+          "Posts_dll": "1.0.0",
+          "Stuff_dll": "1.0.0",
+          "Tips_dll": "1.0.0",
+          "Towns_dll": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Menu_App_Lib.dll": {}
         },
@@ -14,19 +50,145 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "Orders_dll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Orders_dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Orders_dll.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Others_dll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Others_dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Others_dll.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Posts_dll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Posts_dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Posts_dll.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Stuff_dll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Stuff_dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stuff_dll.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Tips_dll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Tips_dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tips_dll.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Towns_dll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Towns_dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Towns_dll.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
   "libraries": {
+    "Departs_dll/1.0.0": {
+      "type": "project",
+      "path": "../Departs_dll/Departs_dll.csproj",
+      "msbuildProject": "../Departs_dll/Departs_dll.csproj"
+    },
+    "Docs_dll/1.0.0": {
+      "type": "project",
+      "path": "../Docs_dll/Docs_dll.csproj",
+      "msbuildProject": "../Docs_dll/Docs_dll.csproj"
+    },
     "Menu_App_Lib/1.0.0": {
       "type": "project",
       "path": "../Menu_App_Lib/Menu_App_Lib.csproj",
       "msbuildProject": "../Menu_App_Lib/Menu_App_Lib.csproj"
+    },
+    "Orders_dll/1.0.0": {
+      "type": "project",
+      "path": "../Orders_dll/Orders_dll.csproj",
+      "msbuildProject": "../Orders_dll/Orders_dll.csproj"
+    },
+    "Others_dll/1.0.0": {
+      "type": "project",
+      "path": "../Others_dll/Others_dll.csproj",
+      "msbuildProject": "../Others_dll/Others_dll.csproj"
+    },
+    "Posts_dll/1.0.0": {
+      "type": "project",
+      "path": "../Posts_dll/Posts_dll.csproj",
+      "msbuildProject": "../Posts_dll/Posts_dll.csproj"
+    },
+    "Stuff_dll/1.0.0": {
+      "type": "project",
+      "path": "../Stuff_dll/Stuff_dll.csproj",
+      "msbuildProject": "../Stuff_dll/Stuff_dll.csproj"
+    },
+    "Tips_dll/1.0.0": {
+      "type": "project",
+      "path": "../Tips_dll/Tips_dll.csproj",
+      "msbuildProject": "../Tips_dll/Tips_dll.csproj"
+    },
+    "Towns_dll/1.0.0": {
+      "type": "project",
+      "path": "../Towns_dll/Towns_dll.csproj",
+      "msbuildProject": "../Towns_dll/Towns_dll.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Menu_App_Lib >= 1.0.0"
+      "Departs_dll >= 1.0.0",
+      "Docs_dll >= 1.0.0",
+      "Menu_App_Lib >= 1.0.0",
+      "Orders_dll >= 1.0.0",
+      "Others_dll >= 1.0.0",
+      "Posts_dll >= 1.0.0",
+      "Stuff_dll >= 1.0.0",
+      "Tips_dll >= 1.0.0",
+      "Towns_dll >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,8 +223,32 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+            "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Departs_dll\\Departs_dll.csproj"
+            },
+            "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Docs_dll\\Docs_dll.csproj"
+            },
             "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj": {
               "projectPath": "C:\\Users\\drago\\source\\repos\\Menu_App_Lib\\Menu_App_Lib.csproj"
+            },
+            "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Orders_dll\\Orders_dll.csproj"
+            },
+            "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Others_dll\\Others_dll.csproj"
+            },
+            "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Posts_dll\\Posts_dll.csproj"
+            },
+            "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Stuff_dll\\Stuff_dll.csproj"
+            },
+            "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Tips_dll\\Tips_dll.csproj"
+            },
+            "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\Towns_dll\\Towns_dll.csproj"
             }
           }
         }
@@ -95,7 +281,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
